@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+    <property>
+        <name>hbase.zookeeper.quorum</name>
+        <value>10.39.3.78:2181,10.39.3.79:2181,10.39.3.80:2181</value>
+    </property>
+    <property>
+        <name>hbase.ipc.client.connection.maxidletime</name>
+        <value>60000</value>
+    </property>
+</configuration>
